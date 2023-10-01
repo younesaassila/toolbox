@@ -1,0 +1,12 @@
+{
+  "addons": {
+    "{c47d1241-bf35-47f6-a9a5-2d648198fb43}": {
+      "updates": [
+        {
+          "version": "1.0.0",
+          "update_link": "https://github.com/younesaassila/toolbox/releases/download/v1.0.0/toolbox-v1.0.0-firefox.xpi"
+        }
+      ]
+    }
+  }
+}
