@@ -3,9 +3,15 @@
   "default_locale": "en",
   "name": "__MSG_extensionName__",
   "description": "__MSG_extensionDescription__",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "icons": {
     "72": "icons/72.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{c47d1241-bf35-47f6-a9a5-2d648198fb43}",
+      "update_url": "https://younesaassila.github.io/toolbox/updates.json"
+    }
   },
   "background": {
     "scripts": ["background/background.js"],
