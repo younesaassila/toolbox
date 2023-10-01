@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "default_locale": "en",
+  "name": "__MSG_extensionName__",
+  "description": "__MSG_extensionDescription__",
+  "version": "0.0.1",
+  "icons": {
+    "72": "icons/72.png"
+  },
+  "background": {
+    "scripts": ["background/background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://drive.google.com/file/*"],
+      "js": ["content/drive.js"]
+    },
+    {
+      "matches": ["*://*.zoom.us/rec/*"],
+      "js": ["content/zoom.js"]
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.drive.google.com/*",
+    "*://*.zoom.us/*",
+    "*://youtube.googleapis.com/*"
+  ]
+}

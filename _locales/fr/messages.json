@@ -1,0 +1,21 @@
+{
+  "extensionName": {
+    "message": "Boîte à outils de Younes Aassila",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Une extension de navigateur qui ajoute quelques fonctionnalités utiles à certains sites web.",
+    "description": "Description of the extension."
+  },
+
+  "downloadGoogleDriveVideo": {
+    "message": "Télécharger la vidéo",
+    "description": "Download Google Drive Video"
+  },
+
+  "downloadZoomVideo": {
+    "message": "\"Shift + Clique droit\" pour télécharger la vidéo",
+    "description": "Download Zoom Video"
+  }
+}

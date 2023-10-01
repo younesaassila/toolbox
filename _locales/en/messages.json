@@ -1,0 +1,21 @@
+{
+  "extensionName": {
+    "message": "Younes Aassila's Toolbox",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "A web extension that adds some useful features to some websites.",
+    "description": "Description of the extension."
+  },
+
+  "downloadGoogleDriveVideo": {
+    "message": "Download video",
+    "description": "Download Google Drive Video"
+  },
+
+  "downloadZoomVideo": {
+    "message": "\"Shift + Right click\" to download video",
+    "description": "Download Zoom Video"
+  }
+}
