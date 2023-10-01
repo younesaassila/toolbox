@@ -75,7 +75,7 @@ async function main() {
 
   try {
     const menuElement = await waitForElement(
-      'div[role="toolbar"] > div > div:last-child'
+      'div[role="toolbar"] > div > div:last-child',
     );
     menuElement.prepend(aElement);
   } catch (error) {

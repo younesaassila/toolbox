@@ -69,7 +69,7 @@ async function main() {
   let videoSrc;
   try {
     videoSrc = await waitForElement("video").then((videoElement) =>
-      waitForAttribute(videoElement, "src")
+      waitForAttribute(videoElement, "src"),
     );
   } catch (error) {
     return console.error(error);

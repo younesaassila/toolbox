@@ -9,5 +9,5 @@ browser.webRequest.onBeforeRequest.addListener(
       url: details.url,
     });
   },
-  { urls: ["*://*.drive.google.com/videoplayback*"] }
+  { urls: ["*://*.drive.google.com/videoplayback*"] },
 );
